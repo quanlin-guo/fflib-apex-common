@@ -6,13 +6,20 @@
       "path": "sfdx-source/apex-common",
       "default": true,
       "package": "FFLib Apex Common",
-      "versionDescription": ""
+      "versionDescription": "",
+      "dependencies": [
+        {
+          "package": "FFLib Apex Mocks@0.1.0-1"
+        }
+      ]
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "63.0",
   "packageAliases": {
-    "FFLib Apex Common": "0HogK00000001SLSAY"
+    "FFLib Apex Common": "0HogK00000001SLSAY",
+    "FFLib Apex Mocks@0.1.0-1": "04tgK00000009bBQAQ",
+    "FFLib Apex Common@0.1.0-1": "04tgK00000009ePQAQ"
   }
 }
